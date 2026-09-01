@@ -965,7 +965,7 @@
 	(footprint "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
 		(layer "F.Cu")
 		(uuid "78de64da-1c34-4681-9cb5-b4a217c09ecd")
-		(at 144.5 78)
+		(at 153 78)
 		(descr "Through hole straight pin header, 1x02, 2.54mm pitch, single row")
 		(tags "Through hole pin header THT 1x02 2.54mm single row")
 		(property "Reference" "J2"
@@ -4222,6 +4222,14 @@
 		(uuid "4fa65c14-a10f-43c6-9e12-c7bcec92d195")
 	)
 	(segment
+		(start 154.96 82.5)
+		(end 167.04 82.5)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/GND")
+		(uuid "55be4228-7995-47bb-8019-a20f6573b9e2")
+	)
+	(segment
 		(start 184 126.5)
 		(end 184 131)
 		(width 0.2)
@@ -4244,14 +4252,6 @@
 		(layer "F.Cu")
 		(net "/GND")
 		(uuid "5d7d3671-cbd7-4335-918c-c4b59631c6af")
-	)
-	(segment
-		(start 144.5 80.54)
-		(end 146.46 82.5)
-		(width 0.2)
-		(layer "F.Cu")
-		(net "/GND")
-		(uuid "5f696de7-1a2b-425c-8faf-3aebdd7184d6")
 	)
 	(segment
 		(start 124 115.54)
@@ -4299,7 +4299,7 @@
 		(width 0.2)
 		(layer "F.Cu")
 		(net "/GND")
-		(uuid "83279c97-b32c-44be-b2de-3003bd0caa02")
+		(uuid "768b8e79-7799-4eac-99ac-905fc466a5f7")
 	)
 	(segment
 		(start 123.5 121.5)
@@ -4414,12 +4414,12 @@
 		(uuid "e33f07f4-808d-4bc6-92ba-01855389d882")
 	)
 	(segment
-		(start 146.46 82.5)
-		(end 167.04 82.5)
+		(start 153 80.54)
+		(end 154.96 82.5)
 		(width 0.2)
 		(layer "F.Cu")
 		(net "/GND")
-		(uuid "eaa209bb-5c4a-4fd8-a2a6-dfd96d784dee")
+		(uuid "f2340bbf-af0e-4bad-9fcb-110d8057f79c")
 	)
 	(segment
 		(start 182 124.5)
@@ -4671,11 +4671,11 @@
 	)
 	(segment
 		(start 129.66 78)
-		(end 144.5 78)
+		(end 153 78)
 		(width 0.2)
 		(layer "F.Cu")
 		(net "/+12V_PROTECTED")
-		(uuid "0e73385d-7b50-4e23-ad87-9eda86eb9114")
+		(uuid "4466f912-d1dc-42c7-9ae3-09948aa37031")
 	)
 	(segment
 		(start 127.66 76)
@@ -4683,7 +4683,7 @@
 		(width 0.2)
 		(layer "F.Cu")
 		(net "/+12V_PROTECTED")
-		(uuid "346778c6-9ac7-4df8-acad-504fd8f7cd93")
+		(uuid "bce35e7a-144c-4919-a581-04f97c8cce6d")
 	)
 	(segment
 		(start 126.46 102)
